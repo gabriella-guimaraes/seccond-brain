@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\second-brain.API.props" />
+</Project>
