@@ -1,0 +1,17 @@
+D:\Gabi\Projects\second-brain\API\second-brain-api\second-brain.Infra.Data\bin\Debug\second-brain.Infra.Data.dll.config
+D:\Gabi\Projects\second-brain\API\second-brain-api\second-brain.Infra.Data\bin\Debug\second-brain.Infra.Data.dll
+D:\Gabi\Projects\second-brain\API\second-brain-api\second-brain.Infra.Data\bin\Debug\second-brain.Infra.Data.pdb
+D:\Gabi\Projects\second-brain\API\second-brain-api\second-brain.Infra.Data\bin\Debug\EntityFramework.dll
+D:\Gabi\Projects\second-brain\API\second-brain-api\second-brain.Infra.Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\Gabi\Projects\second-brain\API\second-brain-api\second-brain.Infra.Data\bin\Debug\Microsoft.Analytics.Interfaces.dll
+D:\Gabi\Projects\second-brain\API\second-brain-api\second-brain.Infra.Data\bin\Debug\Microsoft.Analytics.Interfaces.Streaming.dll
+D:\Gabi\Projects\second-brain\API\second-brain-api\second-brain.Infra.Data\bin\Debug\Microsoft.Analytics.Types.dll
+D:\Gabi\Projects\second-brain\API\second-brain-api\second-brain.Infra.Data\bin\Debug\second-brain.Domain.dll
+D:\Gabi\Projects\second-brain\API\second-brain-api\second-brain.Infra.Data\bin\Debug\second-brain.Domain.pdb
+D:\Gabi\Projects\second-brain\API\second-brain-api\second-brain.Infra.Data\bin\Debug\EntityFramework.xml
+D:\Gabi\Projects\second-brain\API\second-brain-api\second-brain.Infra.Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\Gabi\Projects\second-brain\API\second-brain-api\second-brain.Infra.Data\obj\Debug\second-brain.Infra.Data.csproj.AssemblyReference.cache
+D:\Gabi\Projects\second-brain\API\second-brain-api\second-brain.Infra.Data\obj\Debug\second-brain.Infra.Data.csproj.CoreCompileInputs.cache
+D:\Gabi\Projects\second-brain\API\second-brain-api\second-brain.Infra.Data\obj\Debug\second-b.7834AC58.Up2Date
+D:\Gabi\Projects\second-brain\API\second-brain-api\second-brain.Infra.Data\obj\Debug\second-brain.Infra.Data.dll
+D:\Gabi\Projects\second-brain\API\second-brain-api\second-brain.Infra.Data\obj\Debug\second-brain.Infra.Data.pdb

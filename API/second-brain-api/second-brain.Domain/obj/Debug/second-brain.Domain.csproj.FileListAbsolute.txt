@@ -1,0 +1,10 @@
+D:\Gabi\Projects\second-brain\API\second-brain-api\second-brain.Domain\bin\Debug\second-brain.Domain.dll
+D:\Gabi\Projects\second-brain\API\second-brain-api\second-brain.Domain\bin\Debug\second-brain.Domain.pdb
+D:\Gabi\Projects\second-brain\API\second-brain-api\second-brain.Domain\bin\Debug\Microsoft.Analytics.Interfaces.dll
+D:\Gabi\Projects\second-brain\API\second-brain-api\second-brain.Domain\bin\Debug\Microsoft.Analytics.Interfaces.Streaming.dll
+D:\Gabi\Projects\second-brain\API\second-brain-api\second-brain.Domain\bin\Debug\Microsoft.Analytics.Types.dll
+D:\Gabi\Projects\second-brain\API\second-brain-api\second-brain.Domain\obj\Debug\second-brain.Domain.csproj.AssemblyReference.cache
+D:\Gabi\Projects\second-brain\API\second-brain-api\second-brain.Domain\obj\Debug\second-brain.Domain.csproj.CoreCompileInputs.cache
+D:\Gabi\Projects\second-brain\API\second-brain-api\second-brain.Domain\obj\Debug\second-b.80C342B8.Up2Date
+D:\Gabi\Projects\second-brain\API\second-brain-api\second-brain.Domain\obj\Debug\second-brain.Domain.dll
+D:\Gabi\Projects\second-brain\API\second-brain-api\second-brain.Domain\obj\Debug\second-brain.Domain.pdb

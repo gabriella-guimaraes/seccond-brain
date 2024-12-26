@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace second_brain.Domain.Entities
 {
@@ -11,5 +12,7 @@ namespace second_brain.Domain.Entities
         public string Password { get; set; }
         public DateTime CreatedAt { get; set; }
         public bool IsActive { get; set; }
+
+        public virtual IEnumerable<Reminder> Reminders { get; set; }
     }
 }
