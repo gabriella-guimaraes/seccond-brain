@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace second_brain.API.ViewModel
 {
-    public class User
+    public class UserViewModel
     {
         [Key]
         public int UserId { get; set; }
@@ -33,6 +33,6 @@ namespace second_brain.API.ViewModel
         public DateTime CreatedAt { get; set; }
         public bool IsActive { get; set; }
 
-        //public virtual IEnumerable<Reminder> Reminders { get; set; }
+        public virtual IEnumerable<ReminderViewModel> Reminders { get; set; }
     }
 }
