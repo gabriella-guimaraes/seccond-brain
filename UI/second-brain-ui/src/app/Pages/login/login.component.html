@@ -1,1 +1,70 @@
-<p>login works!</p>
+<div class="LoginPage">
+    <div class="container">
+        <section class="Image">
+        </section>
+
+        <section class="Intro">
+            <h1>
+                Welcome to your 
+            </h1>
+            <h1 class="gradient-text">Second Brain</h1>
+            <p>
+                Your ultimate companion for organizing life’s tasks and never forgetting what matters most.
+            </p>
+
+            <button mat-fab extended class="start_btn">
+                Get Started
+                <mat-icon aria-hidden="false" aria-label="Get Started icon" fontIcon="arrow_forward"></mat-icon>
+            </button>
+        </section>
+    </div>
+
+    <div class="LoginForm">
+        <section class="Login">
+            <h1>Login</h1>
+
+            <section class="form">
+                <form id="login_form">
+                    <mat-form-field>
+                        <mat-label>Enter your email</mat-label>
+                        <input
+                          matInput
+                          placeholder="exemple@email.com"
+                          [formControl]="email"
+                          (blur)="updateErrorMessage()"
+                          required
+                        />
+                        @if (email.invalid) {
+                          <mat-error>{{errorMessage()}}</mat-error>
+                        }
+                    </mat-form-field>
+    
+                    <mat-form-field>
+                        <mat-label>Enter your password</mat-label>
+                        <input matInput [type]="hide() ? 'password' : 'text'" />
+                        <button
+                          mat-icon-button
+                          matSuffix
+                          (click)="clickEvent($event)"
+                          [attr.aria-label]="'Hide password'"
+                          [attr.aria-pressed]="hide()"
+                        >
+                          <mat-icon>{{hide() ? 'visibility_off' : 'visibility'}}</mat-icon>
+                        </button>
+                    </mat-form-field>
+
+                    <button mat-fab extended class="login_btn">
+                        LogIn
+                    </button>
+                </form>
+
+                <section class="signup">
+                    <p>
+                        Don't have an account yet? <a routerLink="/home">Sign up</a>
+                    </p>
+                </section>
+
+            </section>
+        </section>
+    </div>
+</div>

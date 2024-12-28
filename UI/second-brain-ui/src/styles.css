@@ -1,3 +1,5 @@
+@import "../node_modules/@angular/material/prebuilt-themes/indigo-pink.css";
+
 :root {
     --bg-light: #f7f8fe;
     --text: #05081d;
@@ -46,4 +48,18 @@ h4 {
 
 h5 {
     font-size: 1.5rem;
+}
+
+a {
+    color: var(--primary-blue);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.gradient-text {
+    font-size: 4rem;
+    font-weight: bold;
+    background: linear-gradient(90deg, var(--primary-blue), var(--secondary-pink), var(--accent-yellow));
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
 }
