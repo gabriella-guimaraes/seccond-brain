@@ -41,6 +41,7 @@
     <Compile Include="Entities\Reminder.cs" />
     <Compile Include="Entities\User.cs" />
     <Compile Include="Interfaces\IRepositoryBase.cs" />
+    <Compile Include="Interfaces\IUserRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
