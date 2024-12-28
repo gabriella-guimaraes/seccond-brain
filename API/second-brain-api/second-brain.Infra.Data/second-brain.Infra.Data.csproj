@@ -58,10 +58,9 @@
     <Compile Include="EntityConfig\UserConfiguration.cs" />
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\RepositoryBase.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Repositories\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\second-brain.Domain\second-brain.Domain.csproj">
       <Project>{96183761-8774-4749-b139-6fc95081d255}</Project>
