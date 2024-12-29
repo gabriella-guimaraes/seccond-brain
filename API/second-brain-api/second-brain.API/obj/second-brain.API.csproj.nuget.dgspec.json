@@ -28,7 +28,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\Gabi\\Projects\\second-brain\\API\\second-brain-api\\second-brain.Domain\\second-brain.Domain.csproj": {
+                "projectPath": "D:\\Gabi\\Projects\\second-brain\\API\\second-brain-api\\second-brain.Domain\\second-brain.Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -45,6 +49,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -66,6 +76,21 @@
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
         }
+      }
+    },
+    "D:\\Gabi\\Projects\\second-brain\\API\\second-brain-api\\second-brain.Domain\\second-brain.Domain.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\Gabi\\Projects\\second-brain\\API\\second-brain-api\\second-brain.Domain\\second-brain.Domain.csproj",
+        "projectName": "second-brain.Domain",
+        "projectPath": "D:\\Gabi\\Projects\\second-brain\\API\\second-brain-api\\second-brain.Domain\\second-brain.Domain.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
       }
     }
   }

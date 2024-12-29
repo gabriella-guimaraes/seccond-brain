@@ -7,4 +7,12 @@
     <RootNamespace>second_brain.API</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\second-brain.Domain\second-brain.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
