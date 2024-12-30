@@ -31,6 +31,9 @@
             "projectReferences": {
               "D:\\Gabi\\Projects\\second-brain\\API\\second-brain-api\\second-brain.Domain\\second-brain.Domain.csproj": {
                 "projectPath": "D:\\Gabi\\Projects\\second-brain\\API\\second-brain-api\\second-brain.Domain\\second-brain.Domain.csproj"
+              },
+              "D:\\Gabi\\Projects\\second-brain\\API\\second-brain-api\\second-brain.Infra.Data\\second-brain.Infra.Data.csproj": {
+                "projectPath": "D:\\Gabi\\Projects\\second-brain\\API\\second-brain-api\\second-brain.Infra.Data\\second-brain.Infra.Data.csproj"
               }
             }
           }
@@ -53,6 +56,18 @@
             "AutoMapper": {
               "target": "Package",
               "version": "[13.0.1, )"
+            },
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.5.1, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.9.0, )"
             }
           },
           "imports": [
@@ -86,6 +101,25 @@
         "frameworks": {
           "net472": {
             "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "D:\\Gabi\\Projects\\second-brain\\API\\second-brain-api\\second-brain.Infra.Data\\second-brain.Infra.Data.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\Gabi\\Projects\\second-brain\\API\\second-brain-api\\second-brain.Infra.Data\\second-brain.Infra.Data.csproj",
+        "projectName": "second-brain.Infra.Data",
+        "projectPath": "D:\\Gabi\\Projects\\second-brain\\API\\second-brain-api\\second-brain.Infra.Data\\second-brain.Infra.Data.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "D:\\Gabi\\Projects\\second-brain\\API\\second-brain-api\\second-brain.Domain\\second-brain.Domain.csproj": {
+                "projectPath": "D:\\Gabi\\Projects\\second-brain\\API\\second-brain-api\\second-brain.Domain\\second-brain.Domain.csproj"
+              }
+            }
           }
         }
       },

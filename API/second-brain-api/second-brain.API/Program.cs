@@ -2,13 +2,13 @@ using second_brain.API.AutoMapper;
 
 var builder = WebApplication.CreateBuilder(args);
 
+//AutoMapper - config para a injeção de dependência
+builder.Services.AddAutoMapper(typeof(ViewModelToDomainMappingProfile), typeof(DomainToViewModelMappingProfile));
+
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
-
-//AutoMapper - config para a injeção de dependência
-builder.Services.AddAutoMapper(typeof(ViewModelToDomainMappingProfile), typeof(DomainToViewModelMappingProfile));
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())

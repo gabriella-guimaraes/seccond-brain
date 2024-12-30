@@ -9,10 +9,14 @@
 
   <ItemGroup>
     <PackageReference Include="AutoMapper" Version="13.0.1" />
+    <PackageReference Include="EntityFramework" Version="6.5.1" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.7" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.9.0" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\second-brain.Domain\second-brain.Domain.csproj" />
+    <ProjectReference Include="..\second-brain.Infra.Data\second-brain.Infra.Data.csproj" />
   </ItemGroup>
 
 </Project>

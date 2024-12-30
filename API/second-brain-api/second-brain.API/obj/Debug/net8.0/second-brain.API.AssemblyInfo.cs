@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("second-brain.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+64792bf4dcad771dbc5ab64fe70b8454d1cd8683")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+217c4247beef905372a336b72b1a4ee6e4ea0b29")]
 [assembly: System.Reflection.AssemblyProductAttribute("second-brain.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("second-brain.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
