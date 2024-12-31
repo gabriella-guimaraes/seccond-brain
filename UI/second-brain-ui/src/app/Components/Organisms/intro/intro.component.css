@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.Image {
+    width: 50%;
+    height: 100vh;
+    overflow: hidden;
+    background-image: url("../../../../assets/gradient.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+
+.Intro {
+    width: 50%;
+    text-align: left;
+    padding: 0 3rem;
+
+}
+
+.Intro p{
+    margin-bottom: 2rem;
+}

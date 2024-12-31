@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
+import { IntroComponent } from '../../Components/Organisms/intro/intro.component';
 
 import {ChangeDetectionStrategy, signal} from '@angular/core';
 import {takeUntilDestroyed} from '@angular/core/rxjs-interop';
@@ -9,10 +10,12 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
 import {merge} from 'rxjs';
 
+import { IconButtonComponent } from '../../Components/Atoms/icon-button/icon-button.component';
+
 @Component({
   selector: 'app-login',
   standalone: true,
-  imports: [MatButtonModule, MatIconModule, MatFormFieldModule, MatInputModule, FormsModule, ReactiveFormsModule],
+  imports: [MatButtonModule, MatIconModule, MatFormFieldModule, MatInputModule, FormsModule, ReactiveFormsModule, IconButtonComponent, IntroComponent],
   templateUrl: './login.component.html',
   styleUrl: './login.component.css'
 })
