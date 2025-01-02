@@ -1,0 +1,47 @@
+<section class="Login">
+    <h1>Login</h1>
+  
+    <section class="form">
+      <form id="login_form" [formGroup]="form">
+        <mat-form-field>
+          <mat-label>Enter your email</mat-label>
+          <input
+            matInput
+            placeholder="example@email.com"
+            formControlName="email"
+            required
+          />
+          <mat-error *ngIf="email.invalid">{{ emailErrorMessage() }}</mat-error>
+        </mat-form-field>
+  
+        <mat-form-field>
+          <mat-label>Enter your password</mat-label>
+          <input
+            matInput
+            formControlName="password"
+            [type]="hide() ? 'password' : 'text'"
+            required
+          />
+          <mat-error *ngIf="password.invalid">{{ passwordErrorMessage() }}</mat-error>
+          <button
+            mat-icon-button
+            matSuffix
+            (click)="clickEvent($event)"
+            [attr.aria-label]="'Hide password'"
+            [attr.aria-pressed]="hide()"
+          >
+            <mat-icon>{{ hide() ? 'visibility_off' : 'visibility' }}</mat-icon>
+          </button>
+        </mat-form-field>
+  
+        <button mat-fab extended class="login_btn" [disabled]="!form.valid" (click)="onSubmit()">LogIn</button>
+      </form>
+  
+      <section class="signup">
+        <p>
+          Don't have an account yet? <a routerLink="/home">Sign up</a>
+        </p>
+      </section>
+    </section>
+</section>
+  
