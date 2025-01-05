@@ -26,3 +26,21 @@
 .Intro p{
     margin-bottom: 2rem;
 }
+
+@media (max-width: 900px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem 3rem;
+        min-height: 90vh;
+    }
+
+    .Image {
+        display: none !important;
+    }
+
+    .Intro {
+        width: 100%;
+    }   
+}
