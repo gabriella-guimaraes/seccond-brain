@@ -15,6 +15,7 @@ import { MatInputModule } from '@angular/material/input';
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { merge } from 'rxjs';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-login-form',
@@ -27,6 +28,7 @@ import { merge } from 'rxjs';
     MatIconModule,
     FormsModule,
     ReactiveFormsModule,
+    RouterModule
   ],
   templateUrl: './login-form.component.html',
   styleUrls: ['./login-form.component.css'],
