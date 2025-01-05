@@ -63,3 +63,27 @@ a {
     -webkit-background-clip: text; 
     -webkit-text-fill-color: transparent;
 }
+
+@media (max-width: 1000px) {}
+
+@media (max-width: 748px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    h4 {
+        font-size: 1.25rem;
+    }
+
+    h5 {
+        font-size: 1rem;
+    }
+}
