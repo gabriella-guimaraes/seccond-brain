@@ -2,6 +2,7 @@
   mat-fab
   extended
   [ngClass]="className"
+  (click)="scrollToTarget()"
 >
   {{ label }}
   <mat-icon *ngIf="icon" [fontIcon]="icon"></mat-icon>
