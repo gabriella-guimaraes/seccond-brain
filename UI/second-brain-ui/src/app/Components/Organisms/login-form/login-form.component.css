@@ -21,3 +21,9 @@
     width: 100%;
     margin: 5px 0;
 }
+
+@media (max-width: 900px) {
+    .Login {
+        padding: 2rem;
+    }
+}

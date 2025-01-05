@@ -13,4 +13,10 @@
     padding: 4rem 0;
 }
 
+@media (max-width: 900px) {
+    .LoginForm {
+        height: 90vh;
+    }
+}
+
 
