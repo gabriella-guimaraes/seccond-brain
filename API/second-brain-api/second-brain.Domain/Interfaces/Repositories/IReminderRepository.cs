@@ -1,4 +1,5 @@
 ﻿using second_brain.Domain.Entities;
+using second_brain.Domain.Interfaces.Repositories;
 using System.Collections;
 using System.Collections.Generic;
 

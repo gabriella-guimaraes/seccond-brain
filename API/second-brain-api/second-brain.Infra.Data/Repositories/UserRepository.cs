@@ -1,5 +1,5 @@
 ﻿using second_brain.Domain.Entities;
-using second_brain.Domain.Interfaces;
+using second_brain.Domain.Interfaces.Repositories;
 
 namespace second_brain.Infra.Data.Repositories
 {
